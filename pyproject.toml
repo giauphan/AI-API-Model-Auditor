@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ai-api-model-auditor"
+version = "0.1.0"
+authors = [
+  { name="Author", email="author@example.com" },
+]
+description = "AI API Model Auditor Foundation"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "click>=8.1.0",
+    "httpx>=0.25.0",
+    "pydantic>=2.4.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "respx>=0.20.2",
+    "pytest-httpx>=0.24.0",
+    "black",
+    "isort",
+    "flake8"
+]
+
+[project.scripts]
+ai-auditor = "ai_api_model_auditor.cli:cli"
