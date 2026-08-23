@@ -1,0 +1,8 @@
+{
+  "status_code": 403,
+  "headers": {
+    "Server": "cloudflare",
+    "Content-Type": "text/html"
+  },
+  "body": "<html><body><h1>403 Forbidden</h1><p>Request blocked by Web Application Firewall.</p></body></html>"
+}
