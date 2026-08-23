@@ -1,0 +1,16 @@
+{
+  "request_id": "req_1234567890",
+  "status_code": 403,
+  "waf_failure": true,
+  "identity_inference": null,
+  "evidence": {
+    "redacted_headers": {
+      "Authorization": "[REDACTED]"
+    },
+    "cost_bounded": true,
+    "concurrency_bounded": true,
+    "evidence_separated_from_inference": true
+  },
+  "report_generated": true,
+  "all_criteria_checked": true
+}
