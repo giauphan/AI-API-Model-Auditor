@@ -1,0 +1,38 @@
+{
+  "_meta": {
+    "description": "Cross-model comparison canary benchmarks.",
+    "leakage_controls": "These prompts use abstract, non-sensitive language, synthetic examples, and avoid PII or proprietary terms to bypass and prevent triggering data leakage detection systems."
+  },
+  "canaries": [
+    {
+      "id": "multilingual_1",
+      "type": "multilingual",
+      "prompt": "Translate 'The sky is blue' into French, Spanish, and German."
+    },
+    {
+      "id": "logic_1",
+      "type": "logic",
+      "prompt": "If A implies B, and A is true, what is the value of B?"
+    },
+    {
+      "id": "tool_1",
+      "type": "tool",
+      "prompt": "Format the response as a tool call to 'get_weather' with location 'London'."
+    },
+    {
+      "id": "json_1",
+      "type": "JSON",
+      "prompt": "Output a valid JSON object with keys 'name', 'age', and 'active'."
+    },
+    {
+      "id": "code_1",
+      "type": "code",
+      "prompt": "Write a Python function to calculate the Fibonacci sequence up to n."
+    },
+    {
+      "id": "long_context_1",
+      "type": "long-context",
+      "prompt": "Summarize this long text: The history of the artificial intelligence field is characterized by cycles of optimism followed by disappointment and loss of funding, known as AI winters. In the early days, researchers were highly optimistic about the potential of AI to solve complex problems..."
+    }
+  ]
+}
