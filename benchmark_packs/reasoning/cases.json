@@ -1,0 +1,32 @@
+[
+  {
+    "name": "deterministic_logic",
+    "prompt": "If A implies B, and A is true, is B necessarily true? Answer with only 'Yes' or 'No'.",
+    "expected_content_contains": "Yes"
+  },
+  {
+    "name": "constraint_following",
+    "prompt": "Write exactly 3 words. Do not write anything else.",
+    "expected_constraint": "word_count_3"
+  },
+  {
+    "name": "symbol_manipulation",
+    "prompt": "Reverse the letters in the string 'auditor'. Return only the reversed string.",
+    "expected_content_contains": "rotidua"
+  },
+  {
+    "name": "code_trace",
+    "prompt": "Consider the following Python code:\nx = 5\nfor i in range(3):\n    x += i\nWhat is the final value of x? Return only the number.",
+    "expected_content_contains": "8"
+  },
+  {
+    "name": "counterfactual",
+    "prompt": "Assume for this question that water boils at 50 degrees Celsius at sea level. If I have a pot of water at sea level and heat it to 60 degrees Celsius, will it be boiling? Answer with only 'Yes' or 'No'.",
+    "expected_content_contains": "Yes"
+  },
+  {
+    "name": "math",
+    "prompt": "Calculate the result of 15 * 12. Return only the number.",
+    "expected_content_contains": "180"
+  }
+]
